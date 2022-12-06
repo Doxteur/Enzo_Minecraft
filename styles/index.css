@@ -1,0 +1,32 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    background-image: url("../Images/background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h1{
+    color: #D5266F; 
+    font-size: 75px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#yearminecraft {
+    width: 175px;
+    position: absolute;
+    bottom: 50;
+    right: 50;
+}
+
+#linkInstagram{
+    display: block;
+    margin-bottom: 15px;
+}
+#linkMobPage{
+    background-color: maroon;
+    padding: 5 10 5 10;
+    border-radius: 5px;
+    color: white;
+}

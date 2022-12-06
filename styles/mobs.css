@@ -1,0 +1,23 @@
+.imageMob{
+    width: 75px;
+    height: 135px;
+}
+
+#coeur{
+    color: red;
+}
+
+#zombied{
+text-align: center;
+}
+
+#mobsList{
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+}
+
+#mobsList div{
+    color: blue;
+    width: 350px;
+}
