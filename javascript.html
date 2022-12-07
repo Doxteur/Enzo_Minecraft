@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head> </head>
+  <body>
+    <h1>Bonjour !</h1>
+    <button onmouseover="changePlace()" id="bouton">Clique Moi !</button>
+  </body>
+</html>
+
+<script>
+  let mesPhrases = ["Trol", "Trolo", "Trololo"];
+  let index = 0;
+
+  function changePlace() {
+    let hauteur = null;
+    let largeur = null;
+
+    hauteur = Math.floor(Math.random() * (screen.height - 150));
+    largeur = Math.floor(Math.random() * (screen.width - 150));
+
+    // alert("Alerte dans la fonction");
+    // Changer la couleur
+    // DOM
+
+    let boutonElement = document.getElementById("bouton");
+
+    boutonElement.style.position = "absolute";
+    boutonElement.style.top = hauteur + "px";
+    boutonElement.style.left = largeur + "px";
+    boutonElement.innerHTML = mesPhrases[index];
+
+    console.log(index)
+    index = index + 1;
+
+    if (index > mesPhrases.length - 1) {
+      index = 0;
+    }
+  }
+</script>
