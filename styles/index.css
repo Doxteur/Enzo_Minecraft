@@ -1,18 +1,20 @@
-*{
+* {
     font-family: Arial, Helvetica, sans-serif;
 }
 
-body{
+body {
     background-image: url("../Images/background.jpg");
     background-repeat: no-repeat;
     background-size: cover;
 }
 
-h1{
-    color: #D5266F; 
+h1 {
+    color: #D5266F;
     font-size: 75px;
     font-family: Arial, Helvetica, sans-serif;
+
 }
+
 #yearminecraft {
     width: 175px;
     position: absolute;
@@ -20,13 +22,43 @@ h1{
     right: 50;
 }
 
-#linkInstagram{
-    display: block;
-    margin-bottom: 15px;
-}
-#linkMobPage{
+
+
+
+#linkMobPage {
     background-color: maroon;
     padding: 5 10 5 10;
     border-radius: 5px;
     color: white;
+    border-style: inset;
+}
+
+#discord {
+    background-color: rgb(0, 238, 255);
+    padding: 5 10 5 10;
+    border-radius: 5px;
+    color: white;
+    border-style: inset;
+
+
+
+}
+
+#enzoc53 {
+    bottom: 100px;
+    left: 50px;
+    position: absolute;
+    color: red;
+}
+
+#bouton {
+    background-color: rgb(95, 0, 249);
+    padding: 5 10 5 10;
+    border-radius: 5px;
+    color: white;
+    border-style: inset;
+
+
+
+
 }

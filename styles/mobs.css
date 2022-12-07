@@ -1,23 +1,46 @@
-.imageMob{
+.imageMob {
     width: 75px;
     height: 135px;
 }
 
-#coeur{
+#coeur {
     color: red;
 }
 
-#zombied{
-text-align: center;
+#zombied {
+    text-align: center;
 }
 
-#mobsList{
+#mobsList {
     display: flex;
     justify-content: space-evenly;
     text-align: center;
 }
 
-#mobsList div{
+
+#mobsList div {
     color: blue;
-    width: 350px;
+    width: 300px;
+
+}
+
+#textMobs {
+    color: darkred;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+
+
+}
+
+#text {
+
+    color: #8B0000;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#index {
+    color: rgb(34, 255, 0);
+
+
 }

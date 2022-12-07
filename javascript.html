@@ -1,15 +1,25 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head> </head>
-  <body>
-    <h1>Bonjour !</h1>
-    <button onmouseover="changePlace()" id="bouton">Clique Moi !</button>
-  </body>
+
+<head>
+  <link href="styles/javascript.css" rel="stylesheet" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+  <a href="index.html" id="index">page principale </a>
+
+  <h1>Bonjour !</h1>
+  <button onclick="changePlace()" id="bouton">Clique Moi !</button>
+
+</body>
+
 </html>
 
 <script>
-  let mesPhrases = ["Trol", "Trolo", "Trololo"];
+  let mesPhrases = ["Troll", "Trolo", "Trololo"];
   let index = 0;
+  let mesCouleur = ["red", "blue", "green"];
 
   function changePlace() {
     let hauteur = null;
@@ -28,12 +38,17 @@
     boutonElement.style.top = hauteur + "px";
     boutonElement.style.left = largeur + "px";
     boutonElement.innerHTML = mesPhrases[index];
-
+    boutonElement.style.background = mesCouleur[index]
     console.log(index)
     index = index + 1;
 
     if (index > mesPhrases.length - 1) {
       index = 0;
+    }
+
+    if (index > mesCouleur - 1) {
+      index = 0;
+
     }
   }
 </script>
